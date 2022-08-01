@@ -8,12 +8,17 @@ public class Cat {
     private int age;
 
     public String getName() {
-        System.out.println ("Murzic");
         return name;
     }
 
+    public void setName (String someString){
+        name=someString;
+    }
     public int getAge() {
-        System.out.println(3);
         return age;
+    }
+
+    public void setAge (int someInt) {
+        age=someInt;
     }
 }

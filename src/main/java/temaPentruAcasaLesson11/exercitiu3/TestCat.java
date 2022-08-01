@@ -5,7 +5,9 @@ package temaPentruAcasaLesson11.exercitiu3;
 public class TestCat {
     public static void main (String []args) {
         Cat myCat = new Cat();
-        myCat.getName();
-        myCat.getAge();
+        myCat.setName( "Murzic");
+        myCat.setAge( 3);
+        System.out.println(myCat.getName());
+        System.out.println(myCat.getAge());
     }
 }
